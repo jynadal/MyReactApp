@@ -7,12 +7,27 @@
     color: $text-color;
 
 }
-span {
+.menu-title {
     font-size: 24px;
     font-weight: 500;
     display: flex;
     align-items: center;
     margin-left: 30px;
+
+}
+.menu-content-container {
+    display:flex;
+    align-items: center;
+    margin-right: 30px;
+
+    .ant-avatar {
+        background: $background;
+        border: 1px solid $border;
+    }
+    .menu-avatar-name {
+        font-size: 18px;
+        margin-left: 15px;
+    }
 
 }
 
